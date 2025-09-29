@@ -1,7 +1,9 @@
-async function init() {
+async function init(): Promise<void> {
+  // Explicit return type for init()
   console.log("Starting pipelines ...");
 
-  await new Promise((resolve) => {
+  // Explicitly state the Promise resolves to void
+  await new Promise<void>((resolve) => {
     setTimeout(() => {
       console.log("writing ...");
       resolve();

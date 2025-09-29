@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
-    "test": "node test.js"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "node dist/tests/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/obbylee/devops-pipelines/issues"
   },
-  "homepage": "https://github.com/obbylee/devops-pipelines#readme"
+  "homepage": "https://github.com/obbylee/devops-pipelines#readme",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  }
 }

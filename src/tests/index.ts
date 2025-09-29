@@ -1,7 +1,7 @@
 async function init() {
   console.log("Starting tests ...");
 
-  await new Promise((resolve) => {
+  await new Promise<void>((resolve) => {
     setTimeout(() => {
       console.log("Writing ...");
       resolve();
