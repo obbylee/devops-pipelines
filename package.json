@@ -1,0 +1,21 @@
+{
+  "name": "devops-pipelines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obbylee/devops-pipelines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obbylee/devops-pipelines/issues"
+  },
+  "homepage": "https://github.com/obbylee/devops-pipelines#readme"
+}
